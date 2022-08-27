@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import { About, Reviews ,Services} from '../components'
+import { About, Reviews ,Services ,Follow, Contact ,Footer} from '../components'
 
 
 export default function Home() {
@@ -15,10 +15,13 @@ export default function Home() {
       </Head>
 
      
-     <div>
+      <div className='h-full'>
      <About/>
     <Reviews/>
     <Services/>
+    <Follow/>
+    <Contact/>
+    <Footer/>
      </div>
     </div>
   )

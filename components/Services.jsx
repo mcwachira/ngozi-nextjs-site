@@ -3,7 +3,10 @@ import Image from 'next/image'
 import facial from '../assets/images/facial.png'
 import body from '../assets/images/body.png'
 import Link from 'next/link'
+
+
 const Services =  () => {
+
     return (
 
         <div className='mt-20 w-full flex flex-col md:flex-row justify-between align-middle '>
@@ -15,7 +18,7 @@ const Services =  () => {
                 </Link> 
                         </div>
                 <div>
-                 <h2>
+                    <h2 className='text-center mt-2 text-xl'>
                     Facial  Therapy
                  </h2>
                 </div>
@@ -25,7 +28,7 @@ const Services =  () => {
                     <div>
 
                         <Link href="/services">
-        <Image src={body} width='150px' height='150px' alt='body' className='cursor-pointer hover:bg-[#FEFAF7]' />
+        <Image src={body} width='150px' height='150px' alt='body' className='cursor-pointer ' />
            
                         </Link> 
                                  </div>
@@ -43,8 +46,8 @@ const Services =  () => {
                 <div>
                   
 
-        <Link href="/services">
-                    <Image src={body} width='150px' height='150px' alt='body' className='cursor-pointer hover:bg-[#FEFAF7]' />
+        <Link href="/services" >
+                    <Image src={body} width='150px' height='150px' alt='body' className='cursor-pointer ]' />
         </Link>
         
                 </div>
@@ -62,7 +65,7 @@ const Services =  () => {
 
 
         <Link href="/services">
-                    <Image src={body} width='150px' height='150px' alt='body' className='cursor-pointer hover:bg-[#FEFAF7]' />
+                    <Image src={body} width='150px' height='150px' alt='body' className='cursor-pointer ' />
         </Link>
         
                 </div>
