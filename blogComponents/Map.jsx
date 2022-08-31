@@ -8,11 +8,11 @@ import 'leaflet-defaulticon-compatibility';
 // import leaflet from 'leaflet'
  import locationIcon from '../assets/images/icon-location.svg'
 
-const myIcon = new L.Icon({
-  iconUrl: locationIcon,
-  iconRetinaUrl:locationIcon,
-  iconAnchor: null,
-  popupAnchor: null,
+const myIcon = new  L.Icon({
+  iconUrl: locationIcon.src,
+  iconRetinaUrl:locationIcon.src,
+  //iconAnchor: null,
+  //popupAnchor: null,
   shadowUrl: null,
   shadowSize: null,
   shadowAnchor: null,

@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div>
 
-          <div className=" mt-20 w-full  bg-[#48487F]/80 
+          <div className=" mt-20 w-full  bg-[#48487F] 
     flex flex-col md:flex-row justify-between align-middle text-white">
 
               <div className='flex justify-center align-middle text-3xl mx-auto my-10 md:my-auto' >
@@ -22,7 +22,7 @@ const Footer = () => {
 
                   <div>
                       <h2 className='font-base text-3xl'>
-                          Contact us
+                          <a href="tel:+254-111-803944" data-tracking-element-type="3" jslog="56037; track:impression,click" itemProp="telephone" dir="ltr">Call now</a>  
                       </h2>
                       </div>
                       <div>
@@ -62,9 +62,9 @@ const Footer = () => {
                   <div>
 
                       <button className='bg-white text-[#48487F]  px-12 py-4 font-base text-xl rounded-md' >
-                          <Link href='/appointments'>
+                          <a href='https://www.google.com/maps/dir//Ngozi+Africa/@-4.3444343,39.4945219,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x182f119b92e35819:0x1610b617d1a25b85!2m2!1d39.5645625!2d-4.3444375' target="_blank" rel="noreferrer" >
                               Get Locations
-                          </Link>
+                          </a>
                       </button>
                   </div>
                   <div>

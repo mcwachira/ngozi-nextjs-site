@@ -44,7 +44,7 @@ const Navbar = () => {
 
                         <div className="mx-auto">
                             <div>
-                                0726601941
+                                0721 215653
                             </div>
 
 
@@ -75,9 +75,9 @@ const Navbar = () => {
                                 Contact Us
                             </Link>
 
-                            <Link href='/appointments'>
+                            {/* <Link href='/appointments'>
                                 Make  Appointment
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
 
