@@ -9,8 +9,8 @@ const Services =  () => {
 
     return (
 
-        <div className='mt-20 w-full flex flex-col md:flex-row justify-between align-middle '>
-            <div className='flex justify-between flex-col align-middle gap-5 mx-auto' >
+        <div className='mt-20 w-full flex flex-col md:flex-row justify-between items-center '>
+            <div className='flex justify-between flex-col items-center gap-5 mx-auto' >
                 <div>
                 <Link href="/services">
         <Image src={facial} width='150px' height='150px' alt='facial' className='cursor-pointer'/>
@@ -23,7 +23,7 @@ const Services =  () => {
                  </h2>
                 </div>
             </div>
-            <div className='flex justify-between align-middle gap-5 mx-auto flex-col'>
+            <div className='flex justify-between items-center gap-5 mx-auto flex-col'>
           
                     <div>
 
@@ -42,7 +42,7 @@ const Services =  () => {
                     </h2>
                 </div>
             </div>
-            <div className='flex justify-between align-middle gap-5 mx-auto flex-col'>
+            <div className='flex justify-between items-center gap-5 mx-auto flex-col'>
                 <div>
                   
 
@@ -60,7 +60,7 @@ const Services =  () => {
                 </div>
             </div>
 
-            <div className='flex justify-between align-middle gap-5 mx-auto flex-col'>
+            <div className='flex justify-between items-center gap-5 mx-auto flex-col'>
                 <div>
 
 

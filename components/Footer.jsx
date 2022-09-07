@@ -3,6 +3,8 @@ import { RiFacebookFill } from 'react-icons/ri'
 import { FiTwitter } from 'react-icons/fi'
 import { FaInstagram } from 'react-icons/fa'
 import Link from 'next/link'
+import Logo from '../assets/logo/ngozi-logo.png'
+import Image  from 'next/image'
 
 
 const style = { color: '#fff' }
@@ -10,14 +12,14 @@ const Footer = () => {
   return (
     <div>
 
-          <div className=" mt-20 w-full  bg-[#48487F] 
-    flex flex-col md:flex-row justify-between align-middle text-white">
+          <div className=" mt-20 w-full  bg-[#4B2610] 
+    flex flex-col md:flex-row justify-between items-center text-white">
 
-              <div className='flex justify-center align-middle text-3xl mx-auto my-10 md:my-auto' >
-                  logo
+              <div className='flex justify-center items-center text-3xl mx-auto my-10 md:my-auto' >
+                  <Image src={Logo} alt='logo' width='150px' height='150px' />
               </div>
 
-              <div className='flex flex-col justify-between align-middle my-10 mx-auto gap-10 md:gap-2'>
+              <div className='flex flex-col justify-between items-center my-10 mx-auto gap-10 md:gap-2'>
 
 
                   <div>
@@ -36,7 +38,7 @@ const Footer = () => {
 
                   <div>
 
-                      <div className="flex  align-middle space-x-4   ">
+                      <div className="flex  items-center space-x-4   ">
                           <a href="instagram.com" className='hover:bg-[#e95950]'>
                               <FaInstagram style={style} size={30} /></a>
 
@@ -50,7 +52,7 @@ const Footer = () => {
                   </div>
 
               </div>
-              <div className='flex flex-col justify-between align-middle my-10 mx-auto gap-10 md:gap-2'>
+              <div className='flex flex-col justify-between items-center my-10 mx-auto gap-10 md:gap-2'>
                   <div>
                       <h2 className='font-base text-3xl'>
                           Address
@@ -75,7 +77,7 @@ const Footer = () => {
                   </div>
 
               </div>
-              <div className='flex flex-col justify-between align-middle my-10 mx-auto gap-10 md:gap-2'>
+              <div className='flex flex-col justify-between items-center my-10 mx-auto gap-10 md:gap-2'>
                   <div>
                       <h2 className='font-base text-3xl mb-5'>
                           Opening Hours

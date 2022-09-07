@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
+import Image from 'next/image'
 import { IconContext } from 'react-icons'
+import Logo from '../assets/logo/ngozi-logo.png'
 import Link from 'next/link'
 import { RiFacebookFill } from 'react-icons/ri'
 import { FiTwitter } from 'react-icons/fi'
@@ -27,7 +29,7 @@ const Navbar = () => {
 
                     <div className='w-full flex  bg-white justify-between'>
 
-                        <div className="flex  align-middle space-x-4 mx-auto ">
+                        <div className="flex  items-center space-x-4 mx-auto ">
                             <a href="instagram.com" className='hover:bg-[#e95950]'><FaInstagram style={style} size={30} /></a>
 
                             <a href="facebook.com" className='hover:bg-[#00B6F1]'>
@@ -39,7 +41,7 @@ const Navbar = () => {
                         </div>
 
                         <div className='mx-auto'>
-                            logo
+                            <Image src={Logo} alt='logo' width='100px' height='150px'/>
                         </div>
 
                         <div className="mx-auto">
@@ -53,7 +55,7 @@ const Navbar = () => {
                     </div>
                        <div className=' w-full hidden md:flex  bg-white justify-between flex-col md:flex-row '>
 
-                        <div className='mt-5 flex space-x-6 align-middle justify-between text-xl text-[#48487F] hover:text-[#4A4A59]  mx-auto'>
+                        <div className='mt-5 flex space-x-6 items-center justify-between text-xl text-[#48487F] hover:text-[#4A4A59]  mx-auto'>
 
                             <Link href='/'>
                                 Home
@@ -66,7 +68,7 @@ const Navbar = () => {
                                 Services
                             </Link>
                         </div>
-                        <div className='my-6 hidden md:flex  space-x-6 align-middle justify-between text-xl text-[#48487F] hover:text-[#4A4A59] mx-auto'>
+                        <div className='my-6 hidden md:flex  space-x-6 items-center justify-between text-xl text-[#48487F] hover:text-[#4A4A59] mx-auto'>
 
                             <Link href='/blog'>
                                 Blog

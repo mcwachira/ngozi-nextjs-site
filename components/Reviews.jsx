@@ -5,7 +5,7 @@ const Reviews = () => {
   return (
 
     <>
-          <div className="mt-10 flex flex-col align-middle justify-center w-full  text-gray-600">
+          <div className="mt-10 flex flex-col items-center justify-center w-full  text-gray-600">
 
 <h1 className='font-semibold mx-auto text-3xl'>
     Reviews

@@ -10,7 +10,7 @@ const style = { color: '#fff' }
 const Follow = () => {
   return (
     <div className=" mt-10 w-full h-40 bg-[#48487F] 
-    flex flex-col md:flex-row justify-between align-middle">
+    flex flex-col md:flex-row justify-between items-center">
 
       <div className='mx-auto my-auto'> 
 
@@ -20,7 +20,7 @@ Follow Ngozi  Africa
 </p>
       </div>
 
-      <div className="flex  align-middle space-x-4 mx-auto my-auto  ">
+      <div className="flex  items-center space-x-4 mx-auto my-auto  ">
         <a href="instagram.com" className='hover:bg-[#e95950]'>
         <FaInstagram style={style} size={50} /></a>
 

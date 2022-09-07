@@ -2,10 +2,22 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import { useEffect } from 'react'
+import axios from 'axios'
 import { Header ,About, Reviews ,Services ,Follow, Contact ,Footer} from '../components'
 
 
 export default function Home() {
+
+  const fetchRatings = async () => {
+    const data = await axios.get('https://api.reviewsmaker.com/gmb/?placeid=ChIJGVjjkpsRLxgRhVui0Re2EBY')
+    console.log(data.data.reviews)
+
+  }
+
+  useEffect(() => {
+   fetchRatings()
+  }, [])
   return (
     <div>
       <Head>
@@ -18,8 +30,9 @@ export default function Home() {
       <div>
       <Header/>
      <About/>
+        <Services />
     <Reviews/>
-    <Services/>
+
     <Follow/>
     <Contact/>
     {/* <Footer/> */}
@@ -29,3 +42,4 @@ export default function Home() {
 }
 
 
+{/* <iframe src="//gmb.reviewsmaker.com/widget/load/?pid=ChIJGVjjkpsRLxgRhVui0Re2EBY" frameborder="0" style="min-height:600px;min-width:600px;"></iframe */}

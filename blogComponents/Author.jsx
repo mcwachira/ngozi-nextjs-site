@@ -13,7 +13,7 @@ const Author = ({ author }) => {
                     alt={author.name}
                     height='100px'
                     width='100px'
-                    className='align-middle rounded-full' />
+                    className='items-center rounded-full' />
 
             </div>
 

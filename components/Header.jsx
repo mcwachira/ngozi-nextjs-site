@@ -34,7 +34,7 @@ const Header = () => {
                           Health Resort
                       </p>
 
-                      <div className='flex justify-between align-middle gap-10 '>
+                      <div className='flex justify-between items-center gap-10 '>
                           <button className='bg-[#48487F] text-sm md:text-xl  px-2  md:px-10 py-1 md:py-2 text-white font-base rounded-sm' >
 
                               <Link href='/services'>
@@ -53,10 +53,10 @@ const Header = () => {
 
               </div>
 
-              <div className='mt-20 top-3/4  w-full bg-white opacity-80 h-auto md:h-60 absolute shadow-lg shadow-cyan-500/50'>
+              <div className='md:-mt-40 top-3/4  w-full bg-white opacity-80 h-auto md:h-60  md:shadow-lg shadow-cyan-500/50'>
 
-                  <div className='mt-10 w-full flex flex-col gap-10 md:flex-row justify-between align-middle '>
-                      <div className='flex justify-between align-middle gap-10 md:gap-5 mx-auto ' >
+                  <div className='mt-10 w-full flex flex-col gap-10 md:flex-row justify-between items-center mx-auto'>
+                      <div className='mt-2 md:mt-10 flex basis-full justify-between items-center gap-10 md:gap-5 md:mx-auto ' >
                           <div>
                               <BsAlarm style={style} size={50} />
                           </div>
@@ -74,7 +74,7 @@ const Header = () => {
                               </span>
                           </div>
                       </div>
-                      <div className='flex justify-between align-middle gap-10 md:gap-5 mx-auto'>
+                      <div className='mt-2 md:mt-10 flex basis-full justify-between items-center gap-10 md:gap-5 md:mx-auto'>
                           <div>
                               <GoLocation style={style} size={50} />
                           </div>
@@ -89,7 +89,7 @@ const Header = () => {
                               </p>
                           </div>
                       </div>
-                      <div className='flex justify-between align-middle gap-10 md:gap-5 mx-auto'>
+                      <div className='mt-2 md:mt-10 flex basis-full justify-between items-center gap-10 md:gap-5 md:mx-auto'>
                           <div>
                               <GiSmartphone style={style} size={50} />
                           </div>
@@ -103,6 +103,7 @@ const Header = () => {
                                   0111 803944
                               </p>
                               <p>
+                              
                                   0721 215653
                               </p>
                           </div>
