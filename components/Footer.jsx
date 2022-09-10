@@ -29,7 +29,7 @@ const Footer = () => {
                       </div>
                       <div>
 
-                      <button className='bg-white text-[#48487F]  px-12 py-4 font-base text-xl rounded-md' >
+                      <button className='bg-white text-black  px-12 py-4 font-base text-xl rounded-md' >
                           <Link href='/appointments'>
                               Call Now
                           </Link>
@@ -63,7 +63,7 @@ const Footer = () => {
 
                   <div>
 
-                      <button className='bg-white text-[#48487F]  px-12 py-4 font-base text-xl rounded-md' >
+                      <button className='bg-white text-black    px-12 py-4 font-base text-xl rounded-md' >
                           <a href='https://www.google.com/maps/dir//Ngozi+Africa/@-4.3444343,39.4945219,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x182f119b92e35819:0x1610b617d1a25b85!2m2!1d39.5645625!2d-4.3444375' target="_blank" rel="noreferrer" >
                               Get Locations
                           </a>

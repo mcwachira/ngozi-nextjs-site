@@ -5,7 +5,7 @@ import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
 import { FaQuoteRight } from 'react-icons/fa'
 import Image from 'next/image'
 
-import Review from './Review'
+
 
 
 const fetcher = url => axios.get(url).then(res => res.data)

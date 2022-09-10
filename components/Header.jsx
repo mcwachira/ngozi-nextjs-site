@@ -56,7 +56,7 @@ const Header = () => {
               <div className='md:-mt-40 top-3/4  w-full bg-white opacity-80 h-auto md:h-60  md:shadow-lg shadow-cyan-500/50'>
 
                   <div className='mt-10 w-full flex flex-col gap-10 md:flex-row justify-between items-center mx-auto'>
-                      <div className='mt-2 md:mt-10 flex basis-full justify-between items-center gap-10 md:gap-5 md:mx-auto ' >
+                      <div className='mt-2 md:mt-10  flex basis-full  items-center gap-10 md:gap-5 mx-auto ' >
                           <div>
                               <BsAlarm style={style} size={50} />
                           </div>
@@ -74,7 +74,7 @@ const Header = () => {
                               </span>
                           </div>
                       </div>
-                      <div className='mt-2 md:mt-10 flex basis-full justify-between items-center gap-10 md:gap-5 md:mx-auto'>
+                      <div className='mt-2 md:mt-10 flex basis-full j items-center gap-10 md:gap-5 mx-auto'>
                           <div>
                               <GoLocation style={style} size={50} />
                           </div>
@@ -89,7 +89,7 @@ const Header = () => {
                               </p>
                           </div>
                       </div>
-                      <div className='mt-2 md:mt-10 flex basis-full justify-between items-center gap-10 md:gap-5 md:mx-auto'>
+                      <div className='mt-2 md:mt-10 flex basis-full  items-center gap-10 md:gap-5 mx-auto'>
                           <div>
                               <GiSmartphone style={style} size={50} />
                           </div>
