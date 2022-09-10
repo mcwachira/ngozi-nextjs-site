@@ -27,7 +27,7 @@ const Contact = () => {
                   <textarea name="textarea" cols="80" rows="5" id="body" placeholder=" Type your message here..." className='my-2 py-2 border-solid border-2 border-black text-xl'></textarea>
 
                                   <input type="hidden" name="_next" value="https://www.fundikipusa.co.ke/thanks.html"/>
-      <input type="submit" className='-my-8 bg-[#48487F]  text-white cursor-pointer py-4 px-10 mx-auto' />
+          <input type="submit" className='-my-8 bg-[#4B2610]  text-white cursor-pointer py-4 px-10 mx-auto' />
                                       
                                       
                                       

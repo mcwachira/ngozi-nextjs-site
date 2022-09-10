@@ -9,12 +9,12 @@ const style = { color: '#fff' }
 
 const Follow = () => {
   return (
-    <div className=" mt-10 w-full h-40 bg-[#48487F] 
+    <div className=" mt-10 w-full h-40 bg-[#4B2610] 
     flex flex-col md:flex-row justify-between items-center">
 
       <div className='mx-auto my-auto'> 
 
-<p className='text-4xl md:text-5xl text-white'>
+<p className='text-2xl md:text-4xl lg:text-5xl text-white'>
 
 Follow Ngozi  Africa
 </p>

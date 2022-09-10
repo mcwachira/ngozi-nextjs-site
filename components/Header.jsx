@@ -8,7 +8,7 @@ import Image from 'next/image'
 import Hero from '../assets/images/hero.jpg'
 
 
-const style = { color:'#48487F'}
+const style = { color:'#4B2610'}
 
 const Header = () => {
 
@@ -25,8 +25,8 @@ const Header = () => {
               <div className="  flex  justify-center pt-20 md:pt-20 h-auto">
                   <Image src={Hero} width="1400px" height="750px" className="mt-10" alt="hero" />
 
-                  <div className='absolute mt-20 top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-                      <h1 className='text-xl md:text-5xl text-center font-medium my-5 text-[#48487F]' >
+                  <div className='absolute hidden md:block mt-20 top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                      <h1 className='text-xl md:text-5xl text-center font-medium my-5 text-gray-700' >
                           Ngozi  Africa
                       </h1>
 
@@ -35,16 +35,16 @@ const Header = () => {
                       </p>
 
                       <div className='flex justify-between items-center gap-10 '>
-                          <button className='bg-[#48487F] text-sm md:text-xl  px-2  md:px-10 py-1 md:py-2 text-white font-base rounded-sm' >
+                          <button className='bg-[#4B2610] text-sm md:text-base  px-2  md:px-10 py-1 md:py-2 text-white font-base rounded-sm' >
 
                               <Link href='/services'>
                                   Services
                               </Link>
                           </button>
 
-                          <button className='bg-[#48487F] text-sm md:text-xl px-1 md:px-3 py-1 md:py-2 text-white font-base rounded-sm' >
+                          <button className='bg-[#4B2610] text-sm md:text-base px-1 md:px-3 py-1 md:py-2 text-white font-base rounded-sm' >
                               <Link href='/appointments'>
-                                  Make Appointment
+                                  Book Appointment
                               </Link>
                           </button>
                       </div>
