@@ -17,7 +17,7 @@ const Navbar = () => {
     const [sideNav, setSideNav] = useState(false)
 
     const showSideNav = () => setSideNav(!sideNav)
-    console.log(sideNav)
+    // console.log(sideNav)
     return (
 
         <>

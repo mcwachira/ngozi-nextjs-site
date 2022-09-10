@@ -16,7 +16,8 @@ const OurServices = () => {
        (
         <>
         
-          <h1 className='mt-5 text-lg' key={key}>{key}  {value}</h1>
+          <h1 className='mt-5 text-lg' key={key}>{key}  </h1>
+          <p>{value}</p>
           
           
           
@@ -33,7 +34,8 @@ const OurServices = () => {
           (
             <>
 
-              <h1 className='mt-5 text-lg' key={key}>{key}  {value}</h1>
+              <h1 className='mt-5 text-lg' key={key}>{key}</h1>
+              <p> {value}</p>
 
 
 

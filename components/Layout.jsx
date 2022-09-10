@@ -22,11 +22,11 @@ const Layout = ({children , ...customMeta}) => {
 
         <meta
           property="og:url"
-          content={`https://www.${router.asPath}`}
+          content={`https://www.ngoziafrica.co.ke${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://www.Loading...${router.asPath}`}
+          href={`https://www.ngoziafrica.co.ke...${router.asPath}`}
         />
 
 

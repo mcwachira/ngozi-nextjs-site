@@ -9,15 +9,7 @@ import { Header ,About, Reviews ,Services ,Follow, Contact ,Footer} from '../com
 
 export default function Home() {
 
-  const fetchRatings = async () => {
-    const data = await axios.get('https://api.reviewsmaker.com/gmb/?placeid=ChIJGVjjkpsRLxgRhVui0Re2EBY')
-    console.log(data.data.reviews)
-
-  }
-
-  useEffect(() => {
-   fetchRatings()
-  }, [])
+ 
   return (
     <div>
       <Head>

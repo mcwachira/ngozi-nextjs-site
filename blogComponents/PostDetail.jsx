@@ -81,3 +81,13 @@ const PostDetail = ({ post }) => {
 };
 
 export default PostDetail;
+
+// const getStaticProps = async() => {
+//   const posts = await (getRecentPosts() || [])
+
+
+// console.log(posts)
+//   return {
+//   props:{posts}
+//   }
+// }
