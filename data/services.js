@@ -1,14 +1,5 @@
 export const facialData = [
 	
-	
-		
-	// 	{
-	// 		'Nimue skin Technology ': '2500 ksh',
-	// 	'Maintenance facial ': '2000 ksh',
-	// 	'Electrical Facial': '3000 ksh',
-	// 	'Oriflame Products ': '1500 ksh',
-	// 	'Forever Living': '2500 ksh',
-	// }
 
 	{
 		'Radiance Boosting Facial - 2800/=':`Facial that brightens,improves skin tone, enhance clarity and create fresher, healthier appearance, powerful,
@@ -32,8 +23,13 @@ exception facial massage techniques for total relaxation and well-being.`,
 		'ULTIMATE DEEP EXFOLIATING FACIAL - 5000/=': `This facial treatment is ideal for problematic skin,purifies skin imperfections detoxify and speeds up the healing of
 the breakouts leaving your skin with a natural glow by use of TCA PEEL.`,
 		'REGENERATING FACIAL - 5000/=': `This Facial tones and promotes a healthy reproduction of skin collagen fibers, brightens dull skin tone and
-removes aging spots by use of GLYCOLIC PEELS.`
+removes aging spots by use of GLYCOLIC PEELS.`,
 
+	'	Eyelash Tinting': '1000/=',
+'Eyebrow Tinting' : '800/=',
+'Eyebrow and Eyelash Tinting' : '1500/=',
+'Eyebrow Tweezing' :' 350/=',
+'Eyebrow Waxing' :' 350/=',
 
 
 	}
@@ -43,6 +39,8 @@ removes aging spots by use of GLYCOLIC PEELS.`
 export const bodyData = [
 
 	{
+		'Ngozi Africa Body therapy': `Our signature treatment, customized to address individual needs, focused on the back, shoulders,legs and
+feet.The treatment is personalized to your preference of strength: Deep tissue or soft relaxing.` ,
 		'Full Body Scrub  40min  ': '2000 ksh',
 		'Shiatu  30min ': '1500 ksh',
 		'Ashiatu  60min ': '2500 ksh',
@@ -60,6 +58,27 @@ export const bodyData = [
 		'Foot Therapy   60min ': '1500 ksh',
 		'Larva shell Treatment  75min ': '2500 ksh',
 	}
+]
+
+export const maternityData = [
+{	
+	'YUMMY TUMMY  3000/=' : `Body therapies while expectant can be a wonderful way to ease aching back, stiff shoulders and aching hips, it can
+also PEP-UP your moods and get those pain relieving strokes flowing around your body leaving you relaxed and
+refreshed.`,
+
+'MELLOW MAMA  3500/=':`A gentle exfoliating treatment, followed by full body polish, employing safe and effective pre - natal techniques to
+relax the specific lower back muscles that carry your beautiful baby bump.`,
+
+'LIGHT UP  2000/=':`Natural mineral - rich foot soak,with exfoliation and massage for the lower legs and feet to help with poor
+circulation, water retention and tiring effects of carrying an extra weight during pregnancy.`,
+
+'THE SMOOTHIE - 2500/=':`A relaxing band gentle exfoliating treatment of the back, hot towel, followed by polishing full head and back
+hydration.`,
+
+'4th TRIMESTER HEALING HOUR 2500/=':`A restorative body therapy to assist in re - aligning the body, this is the perfect treatment for new mums.`,
+
+'ANGELS BODY THERAPY  1500/=': `Therapy for babies, reflexology for young ones and full body treatment.`
+}
 ]
 	
 	export const waxingData = [

@@ -9,7 +9,7 @@ const Services =  () => {
 
     return (
 
-        <div className='mt-20 w-full flex flex-col md:flex-row justify-between items-center '>
+        <div className='mt-10 w-full flex flex-col md:flex-row justify-between items-center '>
             <div className='flex justify-between flex-col items-center gap-5 mx-auto' >
                 <div>
                 <Link href="/services">

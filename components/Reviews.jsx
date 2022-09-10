@@ -63,7 +63,7 @@ setCurrentSlide(newSlide)
 
 
     <>
-          <div className="mt-10 flex flex-col items-center justify-center w-full  text-gray-600">
+          <div className="mt-10 flex flex-col items-center justify-center w-full text-gray-600">
 
 <h1 className='font-semibold mx-auto text-3xl'>
     Reviews
@@ -71,7 +71,7 @@ setCurrentSlide(newSlide)
 
 
                   <div className="w-full flex p-4  ">
-                  <div className="mb-2 flex w-full md:w-1/2   overflow-hidden relative mx-auto" >
+                  <div className="mb-2 flex w-full md:w-3/4 bg-white shadow-lg px-5 py-5   overflow-hidden relative mx-auto" >
 
          
                           {
@@ -80,13 +80,13 @@ setCurrentSlide(newSlide)
                                   const { reviewAuthor, reviewDate, reviewText } = review
 
                                   return (
-                                      <div key={index}>
+                                      <div key={index} className='   '>
 
                                           <AiOutlineLeft size={30} onClick={() => handlePrevSlide()} className='absolute left-0 text-3xl inset-y-1/2 text-black cursor-pointer' />
 
                                           
                                           
-                                          <div className={`px-4 text-sm md:text-xl text-center text-gray-600  bg-white rounded-lg drop-shadow-2xl  ${index === currentSlide ? "block w-full " : 'hidden' } `}>
+                                          <div className={`px-4 text-sm md:text-xl text-center text-gray-600  bg-white rounded-lg ${index === currentSlide ? "block w-full " : 'hidden' } `}>
                                               <div className="h2 text-2xl text-left text-gray-600">&quot;</div>
                                               
                                               <p className='text-xl'>

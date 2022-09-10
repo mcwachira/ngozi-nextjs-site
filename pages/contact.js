@@ -13,7 +13,7 @@ const contact = () => {
     return (
         <div className='pt-60 mb-10 ' >
 
-            <h1 className='text-5xl text-center font-semibold text-[#48487F]' >
+            <h1 className='text-5xl text-center font-semibold text-[#4B2610]' >
 
             Contact Us
             </h1>

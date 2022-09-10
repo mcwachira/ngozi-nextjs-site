@@ -3,9 +3,9 @@ import { About, Reviews, Services, Follow, Contact } from '../components'
 import { BookMassage, OurServices } from '../components/pageComponents'
 const services= () => {
     return (
-        <div className='pt-60 mb-10 ' >
+        <div className='pt-40 mb-10 ' >
            
-            <h1 className='text-5xl text-center font-semibold text-[#48487F]' >
+            <h1 className='text-5xl text-center font-semibold text-[#4B2610]' >
 
                 Our Services
             </h1>
@@ -16,7 +16,7 @@ const services= () => {
               
                 </div>
                     <div className="lg:col-span-6 col-span-1 w-full max-w-md mx-auto">
-                    <div className="lg:sticky relative top-10 lg:top-60">
+                    <div className="lg:sticky relative top-10 lg:top-40">
                         <BookMassage />
 
                     </div>
