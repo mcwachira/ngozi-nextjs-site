@@ -2,10 +2,10 @@ import React from 'react'
 
 const BookMassage = () => {
   return (
-    <div className='w-full max-w-xl my-8 mx-auto flex-none relative bg-[#4B2610] '>
+    <div className='w-full max-w-xl my-8 mx-auto flex-none relative bg-[   #d05c14] '>
 
      
-      <form id="contact" action="https://formsubmit.co/3801d72d81b553c61907efeb12c5c2d8   bg-[#4B2610] className='w-full flex  items-center justify-center"  method="post">
+      <form id="contact" action="https://formsubmit.co/3801d72d81b553c61907efeb12c5c2d8   bg-[   #d05c14] className='w-full flex  items-center justify-center"  method="post">
         <h1 className='text-3xl  pt-5 text-center font-semibold text-white'>
       Book a Massage
         </h1>

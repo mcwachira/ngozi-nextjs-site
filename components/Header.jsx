@@ -8,7 +8,7 @@ import Image from 'next/image'
 import Hero from '../assets/images/hero.jpg'
 
 
-const style = { color:'#4B2610'}
+const style = { color:'   #d05c14'}
 
 const Header = () => {
 
@@ -22,38 +22,38 @@ const Header = () => {
     <div className='relative'>
           
 
-              <div className="  flex  justify-center pt-20 md:pt-20 h-auto">
-                  <Image src={Hero} width="1400px" height="750px" className="mt-10" alt="hero" />
+              <div className="  flex  justify-center pt-20 md:pt-20 h-auto bg-black">
+                  <Image src={Hero} width="1400px" height="750px" className="mt-10 bg-black opacity-50" alt="hero" />
 
-                  <div className='absolute hidden md:block mt-20 top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-                      <h1 className='text-xl md:text-5xl text-center font-medium my-5 text-gray-700' >
+                  <div className='absolute  md:block mt-20 sm:md-40 md:mt-20 top:1/2 left:1/2 md:top-1/3 md:left-1/4 md:-translate-x-1/4 -translate-y-1/2'>
+                      <h1 className='text-xl md:text-3xl  lg:text-4xl text-left my-5 text-white font-bold' >
                           Ngozi  Africa
                       </h1>
 
-                      <p className='text-center my-5 text-gray-700 text-xl md:text-3xl'>
-                          Health Resort
+                      <p className='text-left my-5 text-white text-lg md:text-xl lg:text-2xl py-5 w-30 break-all'>
+                         We offer the best massage services out our various location in diani.
                       </p>
 
-                      <div className='flex justify-between items-center gap-10 '>
-                          <button className='bg-[#4B2610] text-sm md:text-base  px-2  md:px-10 py-1 md:py-2 text-white font-base rounded-sm' >
+                      <div className='flex  justify-between items-center gap-10 '>
+                          <button className='bg-[#d05c14] text-base  md:text-lg  px-4  md:px-10 py-1 md:py-3 text-white font-base rounded-[22px]' >
 
                               <Link href='/services'>
-                                  Services
+                                 Learn More
                               </Link>
                           </button>
 
-                          <button className='bg-[#4B2610] text-sm md:text-base px-1 md:px-3 py-1 md:py-2 text-white font-base rounded-sm' >
+                          {/* <button className='bg-[#d05c14] text-sm md:text-base px-1 md:px-3 py-1 md:py-2 text-white font-base rounded-sm' >
                               <Link href='/appointments'>
                                   Book Appointment
                               </Link>
-                          </button>
+                          </button> */}
                       </div>
                   </div>
 
 
               </div>
 
-              <div className='md:-mt-40 top-3/4  w-full bg-white opacity-80 h-auto md:h-60  md:shadow-lg shadow-cyan-500/50'>
+              <div className='md:-mt-40 md:top-3/4  w-full bg-white opacity-80 h-auto md:h-60  md:shadow-lg shadow-cyan-500/50'>
 
                   <div className='mt-10 w-full flex flex-col gap-10 md:flex-row justify-between items-center mx-auto'>
                       <div className='mt-2 md:mt-10  flex basis-full  items-center gap-10 md:gap-5 mx-auto ' >

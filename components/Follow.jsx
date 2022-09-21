@@ -9,7 +9,7 @@ const style = { color: '#fff' }
 
 const Follow = () => {
   return (
-    <div className=" mt-10 w-full h-40 bg-[#4B2610] 
+    <div className=" mt-10 w-full h-40 bg-[#d05c14] 
     flex flex-col md:flex-row justify-between items-center">
 
       <div className='mx-auto my-auto'> 

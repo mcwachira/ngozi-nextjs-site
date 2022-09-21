@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactForm = () => {
     return(
-        <div className='w-full max-w-xl my-2 mx-auto flex-none relative bg-[#4B2610]'>
+        <div className='w-full max-w-xl my-2 mx-auto flex-none relative bg-[   #d05c14]'>
 
 
         <form id="contact" action="https://formsubmit.co/3801d72d81b553c61907efeb12c5c2d8 className=' w-full flex  items-center justify-center" method="post">

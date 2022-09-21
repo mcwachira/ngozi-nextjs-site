@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div>
 
-          <div className=" mt-20 w-full  bg-[#4B2610] 
+          <div className=" mt-20 w-full  bg-[#d05c14] 
     flex flex-col md:flex-row justify-between items-center text-white">
 
               <div className='flex justify-center items-center text-3xl mx-auto my-10 md:my-auto' >
