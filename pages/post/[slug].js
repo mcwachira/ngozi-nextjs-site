@@ -1,7 +1,8 @@
 import React from 'react'
 
 import { getPosts, getPostsDetails } from '../../graphcsm'
-import { Author, PostDetail, Categories, Comments, PostWidget, CommentsForm } from '../../components'
+
+import { Author, PostDetail, Categories, Comments, PostWidget, CommentsForm } from '../../blogComponents/index'
 const PostDetails = ({ post }) => {
     // console.log(post.slug)
     return (
