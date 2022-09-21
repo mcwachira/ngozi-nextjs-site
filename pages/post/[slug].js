@@ -45,10 +45,12 @@ export async function getStaticProps({ params }) {
 // The HTML is generated at build time and will be reused on each request.
 export async function getStaticPaths() {
     //destructuring the individual post
-    const paths = await getPosts()?.map(({ node: { slug } }) => ({ params: { slug } }))
+    const posts=  await getPosts()
+    const paths = posts.map(({ node: { slug } }) => ({ params: { slug } }))
 
+    console.log(posts)
     return {
-        paths ,
+        paths:paths, 
         fallback: false,
     };
 }
