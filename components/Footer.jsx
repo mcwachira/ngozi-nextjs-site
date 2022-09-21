@@ -23,9 +23,7 @@ const Footer = () => {
 
 
                   <div>
-                      <h2 className='font-base text-3xl'>
-                          <a href="tel:+254-111-803944" data-tracking-element-type="3" jslog="56037; track:impression,click" itemProp="telephone" dir="ltr">Call now</a>  
-                      </h2>
+                    
                       </div>
                       <div>
 
