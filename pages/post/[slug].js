@@ -3,7 +3,7 @@ import React from 'react'
 import { getPosts, getPostsDetails } from '../../graphcsm'
 import { Author, PostDetail, Categories, Comments, PostWidget, CommentsForm } from '../../blogComponents'
 const PostDetails = ({ post }) => {
-    console.log(post)
+    // console.log(post)
     return (
         <>
             <div className="container mx-auto px-10 mb-8">
@@ -47,6 +47,6 @@ export async function getStaticPaths() {
     const posts = await getPosts();
     return {
         paths: posts.map(({ node: { slug } }) => ({ params: { slug } })), //destructuring the individual post
-        fallback: true,
+        fallback: false,
     };
 }
