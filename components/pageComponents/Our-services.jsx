@@ -24,12 +24,12 @@ const OurServices = () => {
           </div>
          
 
-      {facialData.map((data) => 
+      {facialData.map((data , index) => 
       (Object.entries((data)).map(([key, value] ) =>
        (
         <>
         
-          <div className='bg-white shadow-lg  my-10 py-5 px-5  w-full'>
+          <div className='bg-white shadow-lg  my-10 py-5 px-5  w-full' key={index}>
             <h1 className='mt-5 text-lg font-bold' key={key}>{key}  </h1>
             <p>{value}</p>
         </div>
@@ -150,12 +150,12 @@ const OurServices = () => {
           <div className=' mt-8 flex  justify-center items-center'>
             <Image src={pregnancy} width='500px' height='300px' alt='body massage' className=' rounded-md' />
           </div>
-          {maternityData.map((data) =>
+          {maternityData.map((data, index) =>
           (Object.entries((data)).map(([key, value]) =>
           (
             <>
 
-              <div className='bg-white shadow-lg  my-10 py-5 px-5  w-full'>
+              <div className='bg-white shadow-lg  my-10 py-5 px-5  w-full' key="index">
                 <h1 className='mt-5 text-lg font-bold' key={key}>{key}  </h1>
                 <p> {value}</p>
 
@@ -173,12 +173,12 @@ const OurServices = () => {
         <div className='mt-10 mx-10'>
           <h1 className='text-3xl font-semibold text-[   #d05c14]' >Waxing  </h1>
 
-          {waxingData.map((data) =>
+          {waxingData.map((data , index) =>
           (Object.entries((data)).map(([key, value]) =>
           (
             <>
 
-                          <div className=' w-full'>
+                          <div className=' w-full' key="index">
             <h1 className='mt-5 text-lg font-bold' key={key}>{key}  </h1>
               <p> {value}</p>
 
