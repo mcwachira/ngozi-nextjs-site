@@ -1,13 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 import Hero from '../assets/images/hero.jpg' 
 import About from '../components/About'
 import { RiFacebookFill } from 'react-icons/ri'
 import { FiTwitter } from 'react-icons/fi'
 import { FaInstagram } from 'react-icons/fa'
-import facial from '../assets/images/facial.jpg'
-import body from '../assets/images/body.jpg'
+import facial from '../assets/images/facial.jpeg'
+import body from '../assets/images/bodymassage-4.jpeg'
+import refine from '../assets/images/bodymassage.jpeg'
+import { galleryPhotos } from '../data/services'
 
 
 const style = { color: '#000' }
@@ -46,53 +49,48 @@ const AboutPage = () => {
 
 
 <About/>
+<div className='my-20'>
 
-      <div className='flex flex-col  items-center justify-between md:flex-row'>
+
+      <h3 className='text-3xl text-center font-semibold text-[#d05c14]' >    Our Massage Parlor</h3>
+
+      <div className=' flex flex-col gap-5'>
+      
     
-        <div className='mx-auto w-1/2'>
-          <h1>
-            Our Massage Parlor
-          </h1>
-          <p>
-            We offer high quality services to all our clients making you get the best of our ouf your money and time
-          </p>
+        <div className='self-center'>
+    
+        
+            <p className='  text-lg my-5 pr-20 pl-20'>
+              We offer high quality services to all our clients making you get the best of our ouf your money and time
+            </p>
 
-          <div className="socials">
-            <div className="flex  items-center space-x-4 mx-auto my-auto mt-5 ">
-              <a href="instagram.com" className='hover:bg-[#e95950] bg-[#FFECE7] rounded-full '>
-                <FaInstagram style={style} size={30} /></a>
+            <div className="socials  self-center">
+              <div className="flex justify-center  items-center gap-20 ">
+                <a href="instagram.com" className='hover:bg-[#e95950] bg-[#FFECE7] rounded-full '>
+                  <FaInstagram style={style} size={50} /></a>
 
-              <a href="facebook.com" className='hover:bg-[#00B6F1] bg-[#FFECE7] rounded-full '>
-                <RiFacebookFill style={style} size={30} />
-              </a>
-              <a href="facebook.com" className='hover:bg-[#00B6F1] bg-[#FFECE7] rounded-full '>
-                <FiTwitter style={style} size={30} />
-              </a>
+                <a href="facebook.com" className='hover:bg-[#00B6F1] bg-[#FFECE7] rounded-full '>
+                  <RiFacebookFill style={style} size={50} />
+                </a>
+                <a href="facebook.com" className='hover:bg-[#00B6F1] bg-[#FFECE7] rounded-full '>
+                  <FiTwitter style={style} size={50} />
+                </a>
+              </div>
             </div>
-          </div>
+    
+          
         </div>
    
 
-        <div className='mx-auto  '>
-
-<div className="flex gap-5">
-            <div >
-              <Image src={facial} width='300px' height='350px' alt='body' className='cursor-pointer  ' />
-            </div>
-
-  <div className='-mt-10'>
-              <Image src={body} width='300px' height='350px' alt='body' className='cursor-pointer  ' />
-  </div>
-</div>
-        </div>
+     
 
        
 </div>
   
-
-      <div className=' w-full pr-8 pl-8  mx-auto m-10 bg-[#F6F5F5'>
+      </div>
+      <div className=' w-full pr-8 pl-8  mx-auto m-10 text-[#d05c14] bg-[#F6F5F5'>
         <h2 className='mt-5 text-center text-4xl font-bold'> Our Team </h2>
-
+{/* 
         <div className="row flex mr-8 ml-8 flex=-wrap ">
 
         <div className='mt-10 w-full flex flex-col md:flex-row justify-between items-center '>
@@ -136,15 +134,31 @@ const AboutPage = () => {
               </h2>
             </div>
           </div>
-      
+          
 
           </div>
 
           <div>
           </div>
 
-        </div>
+        </div> */}
 </div>
+
+      <div className='container mx-auto -my-60'>
+        <h3 className='text-3xl text-center font-semibold text-[#d05c14] my-10' > 
+          Gallery
+        </h3>
+        {galleryPhotos.map((photo) => console.log(photo))}
+        <ResponsiveMasonry
+          columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+
+          <Masonry gutter={'2rem'}>
+            {galleryPhotos.map((photo, index) => (<img key={index} src={photo.src}  style={{ width: "100%", display: "block" }}alt='gallery photo' />))}
+          </Masonry>
+        </ResponsiveMasonry>
+
+      </div>
+
     
 
     </div>

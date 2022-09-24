@@ -1,3 +1,14 @@
+import photo1 from '../assets/images/hero.jpg'
+import photo2 from '../assets/images/backmassage.jpeg'
+import photo3 from '../assets/images/bodymassage-2.jpeg'
+import photo4 from '../assets/images/pregnancy-massage.jpg'
+import photo5 from '../assets/images/bodymassage-3.jpeg'
+import photo6 from '../assets/images/facial.jpeg'
+import photo7 from '../assets/images/body.jpg'
+import photo8 from '../assets/images/bodymassage-4.jpeg'
+
+import waxing from '../assets/images/waxing.jpg'
+
 export const facialData = [
 	
 
@@ -230,3 +241,13 @@ hydration.`,
 	// ]
 	
 
+
+
+export const galleryPhotos = [photo1,
+photo2,
+photo3,
+photo4,
+photo5,
+photo6,
+photo7,
+photo8]
