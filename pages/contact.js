@@ -5,7 +5,7 @@ import { About, Reviews, Services, Follow, Contact } from '../components'
 import { ContactForm } from '../components/pageComponents'
 import contactImage from '../assets/images/contact.jpg'
 import LocationMap from '../components/LocationMap'
-
+import Hero from '../assets/images/hero.jpg'
 //importing my map as this too prevent server side rendering as to avoid the reference error window is not defined
 const contact = () => {
     
@@ -13,7 +13,7 @@ const contact = () => {
     return (
         <div className='pt-60 mb-10 ' >
 
-            <h1 className='text-5xl text-center font-semibold text-[   #d05c14]' >
+            <h1 className='text-5xl text-center font-semibold text-[#d05c14]' >
 
             Contact Us
             </h1>
@@ -27,7 +27,7 @@ const contact = () => {
                 </div>
                 <div className=" lg:col-span-6 col-span-1 mx-auto my-20 ">
 
-                   <Image src={contactImage} width='500px' height='500px' alt='contact image'/>
+                   <Image src={Hero} width='600px' height='400px' alt='contact image'/>
 
                 </div>
               

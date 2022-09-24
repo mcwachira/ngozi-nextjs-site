@@ -53,7 +53,7 @@ const Header = () => {
 
               </div>
 
-              <div className='md:-mt-40 md:top-3/4  w-full bg-white opacity-80 h-auto md:h-60  md:shadow-lg shadow-cyan-500/50'>
+              <div className='md:-mt-40 md:top-3/4  w-full bg-white opacity-80 h-auto md:h-60  '>
 
                   <div className='mt-10 w-full flex flex-col gap-10 md:flex-row justify-between items-center mx-auto'>
                       <div className='mt-2 md:mt-10  flex basis-full  items-center gap-10 md:gap-5 mx-auto ' >
