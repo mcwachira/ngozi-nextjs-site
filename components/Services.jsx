@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import facial from '../assets/images/facial.jpg'
-import body from '../assets/images/body.jpg'
+import body from '../assets/images/bodymassage-4.jpeg'
 import waxing from '../assets/images/waxing.jpg'
 
 import MyLink from './Link'

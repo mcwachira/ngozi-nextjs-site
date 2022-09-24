@@ -36,7 +36,7 @@ const Footer = () => {
 
                   <div>
 
-                      <div className="flex  items-center space-x-4   ">
+                      <div className="flex  items-center space-x-4  mt-5  ">
                           <a href="instagram.com" className='hover:bg-[#e95950]'>
                               <FaInstagram style={style} size={30} /></a>
 
@@ -51,11 +51,11 @@ const Footer = () => {
 
               </div>
               <div className='flex flex-col justify-between items-center my-10 mx-auto gap-10 md:gap-2'>
-                  <div>
+                  {/* <div>
                       <h2 className='font-base text-3xl'>
                           Address
                       </h2>
-                  </div>
+                  </div> */}
 
 
 
@@ -67,8 +67,8 @@ const Footer = () => {
                           </a>
                       </button>
                   </div>
-                  <div>
-                      <p className='text-xl'>
+                  <div className='mt-5'>
+                      <p className='text-xl '>
                           MH47+6R2 Diani Beach
                           Kenya
                       </p>

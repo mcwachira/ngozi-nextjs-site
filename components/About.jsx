@@ -12,9 +12,10 @@ const About = () => {
 </h1>
           <div className=''>
               <p className='mt-10 mx-auto w-3/4 '  >
-                  Ngozi Africa is a high-end health resort in Diani, KE. Our seasoned staff comprises certified therapists qualified in Complementary and alternative medicine (CAM).
-                  Book a quality experience and let us soothe your nervous system as well as improve your psychological condition. We also specialize in all-round beauty products, from hair care to pedicure, that&lsquo;s your whole body taken care of .
-              </p>
+          People often lead such busy lives and forget to relax and unwind,so they build up excess tension in their muscles.Ngozi Africa therapy hub offers a unique range of healing therapies.Every treatment takes a holistic approach to revive skin, body and soul.
+          Visit us or let us visit you at your comfort to experience breathtaking therapies to restore your well-being.
+
+          </p>
 </div>
        
     </div>
