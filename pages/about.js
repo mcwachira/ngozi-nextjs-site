@@ -52,7 +52,7 @@ const AboutPage = () => {
 <div className='my-20'>
 
 
-      <h3 className='text-3xl text-center font-semibold text-[#d05c14]' >    Our Massage Parlor</h3>
+      <h3 className='text-3xl text-center font-semibold text-[#d05c14]' >    Our Therapy hub</h3>
 
       <div className=' flex flex-col gap-5'>
       
@@ -61,7 +61,7 @@ const AboutPage = () => {
     
         
             <p className='  text-lg my-5 pr-20 pl-20'>
-              We offer high quality services to all our clients making you get the best of our ouf your money and time
+              We offer high quality services to all our clients making you get the best out of your money
             </p>
 
             <div className="socials  self-center">
@@ -69,7 +69,7 @@ const AboutPage = () => {
                 <a href="instagram.com" className='hover:bg-[#e95950] bg-[#FFECE7] rounded-full '>
                   <FaInstagram style={style} size={50} /></a>
 
-                <a href="facebook.com" className='hover:bg-[#00B6F1] bg-[#FFECE7] rounded-full '>
+                <a href="https://www.facebook.com/profile.php?id=100076251337953" className='hover:bg-[#00B6F1] bg-[#FFECE7] rounded-full '>
                   <RiFacebookFill style={style} size={50} />
                 </a>
                 <a href="facebook.com" className='hover:bg-[#00B6F1] bg-[#FFECE7] rounded-full '>
