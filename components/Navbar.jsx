@@ -4,8 +4,8 @@ import { IconContext } from 'react-icons'
 import Logo from '../assets/logo/ngozi-logo.png'
 import Link from 'next/link'
 import { RiFacebookFill } from 'react-icons/ri'
-import { FiTwitter } from 'react-icons/fi'
-import { FaInstagram, FaBars } from 'react-icons/fa'
+
+import { FaInstagram, FaBars, FaTripadvisor } from 'react-icons/fa'
 import { AiOutlineCloseSquare } from 'react-icons/ai'
 
 
@@ -31,14 +31,15 @@ const Navbar = () => {
                     <div className='w-full flex  flex-col '>
 
                         <div className="flex   space-x-4 mx-auto ">
-                            <a href="instagram.com" className='hover:bg-[#e95950]'><FaInstagram style={style} size={30} /></a>
+                            <a href="instagram.com" className='hover:bg-[#e95950]'><FaInstagram style={style} size={50} /></a>
 
-                            <a href="facebook.com" className='hover:bg-[#00B6F1]'>
-                                <RiFacebookFill style={style} size={30} />
-                            </a>
-                            <a href="facebook.com" className='hover:bg-[#00B6F1]'>
-                                <FiTwitter style={style} size={30} />
-                            </a>
+                                <a href="https://www.facebook.com/profile.php?id=100076251337953" className='hover:bg-[#00B6F1]  rounded-full '>
+                                    <RiFacebookFill style={style} size={50} />
+                                </a>
+                                <a href="https://en.tripadvisor.com.hk/Attraction_Review-g775870-d23796735-Reviews-Ngozi_Africa-Diani_Beach_Ukunda_Coast_Province.html" className='hover:bg-[#34E0A1]  rounded-full '>
+                                    <FaTripadvisor style={style} size={50} />
+                                </a>
+                    
                         </div>
 
                         <div className=' w-full hidden md:flex  bg-white justify-between flex-col md:flex-row '>
@@ -128,9 +129,6 @@ const Navbar = () => {
                                     Contact Us
                                 </Link>
 
-                                <Link href='/appointments'>
-                                    Make  Appointment
-                                </Link>
 
                             </div>
                         </div>

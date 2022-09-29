@@ -5,11 +5,11 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 import Hero from '../assets/images/hero.jpg' 
 import About from '../components/About'
 import { RiFacebookFill } from 'react-icons/ri'
-import { FiTwitter } from 'react-icons/fi'
-import { FaInstagram } from 'react-icons/fa'
+import { FaInstagram, FaTripadvisor } from 'react-icons/fa'
 import facial from '../assets/images/facial.jpeg'
 import body from '../assets/images/bodymassage-4.jpeg'
 import refine from '../assets/images/bodymassage.jpeg'
+import founder from '../assets/images/martha-img.png'
 import { galleryPhotos } from '../data/services'
 
 
@@ -72,9 +72,11 @@ const AboutPage = () => {
                 <a href="https://www.facebook.com/profile.php?id=100076251337953" className='hover:bg-[#00B6F1] bg-[#FFECE7] rounded-full '>
                   <RiFacebookFill style={style} size={50} />
                 </a>
-                <a href="facebook.com" className='hover:bg-[#00B6F1] bg-[#FFECE7] rounded-full '>
-                  <FiTwitter style={style} size={50} />
+               
+                <a href="https://en.tripadvisor.com.hk/Attraction_Review-g775870-d23796735-Reviews-Ngozi_Africa-Diani_Beach_Ukunda_Coast_Province.html" className='hover:bg-[#34E0A1]  rounded-full '>
+                  <FaTripadvisor style={style} size={50} />
                 </a>
+
               </div>
             </div>
     
@@ -88,60 +90,29 @@ const AboutPage = () => {
 </div>
   
       </div>
-      <div className=' w-full pr-8 pl-8  mx-auto m-10 text-[#d05c14] bg-[#F6F5F5'>
-        <h2 className='mt-5 text-center text-4xl font-bold'> Our Team </h2>
-{/* 
-        <div className="row flex mr-8 ml-8 flex=-wrap ">
+      <div className=' w-full pr-8 pl-8  mx-auto m-10 bg-[#F6F5F5'>
+      
 
-        <div className='mt-10 w-full flex flex-col md:flex-row justify-between items-center '>
+        <div className="flex flex-col md:flex-row mx-auto gap-10 w-full">
+    
 
-          <div className='flex justify-between flex-col items-center gap-5 mx-auto' >
-            <div>
-             
-                <div className='bg-white shadow-lg px-20 py-10'>
-                <Image src={facial} width='50px' height='50px' alt='facial massage' className='cursor-pointer rounded-full -mt-10' />
-
-                  <h4 className='text-center text-xl'>
-                    Founder
-                  </h4>
-
-                <h2 className='text-center text-3xl'>
-                  Jane doe
-                  </h2>
-
-                </div>
+          <div className="flex flex-col mx-auto w-full ">
+            <h3 className='my-10 text-center text-4xl font-bold  text-[#d05c14]'> About Me </h3>
+            <p className='text-black  items-center justify-center'>
+            I  am a passionate and experienced aesthetician with over 10 years of experienced in the spa  industry providing body therapies.
+            I enjoy being the bridge between people and their body therapy and skin care journey, providing them with quality solutions of care,
+            adept in performing facial treatment ,diagnosing skin issues, treating acne , body therapy and hair waxing.
+            </p>
+            <p className='text-black'>
+            My experience in the industry has taught me professionalism, working well with all kinds of  of personalities and in all kinds of situations while keeping the end result in mind.
+            I take pride in my work and amd ensure that every customer transaction is an occasion , not a chore or just another transaction.          </p>
 
             
-            </div>
-        
           </div>
-          <div className='flex justify-between items-center gap-5 mx-auto flex-col'>
-
-              <div className='bg-white shadow-lg px-20 py-10'>
-
-             
-                <Image src={body} width='200px' height='200px' alt='body massage' className='cursor-pointer  rounded-full ' />
-
-            
-            </div>
-
-            <div>
-
-
-              <h2 className='text-center mt-2 text-xl'>
-                Body Therapy
-
-              </h2>
-            </div>
+          <div className="flex  w-full mx-auto  items-center justify-center">
+            <Image src={founder} alt='founder ' width='300px' height='400px' />
           </div>
-          
-
-          </div>
-
-          <div>
-          </div>
-
-        </div> */}
+        </div>
 </div>
 
       <div className='container mx-auto -my-60'>
@@ -165,5 +136,6 @@ const AboutPage = () => {
   )
 }
 
+"Ngozi Africa is a high-end health resort in Diani, KE. Our seasoned staff comprises certified therapists qualified in Complementary and alternative medicine (CAM). Book a quality experience and let us soothe your nervous system as well as improve your psychological condition. We also specialize in all-round body therapies, body scrub, reflexology, facials, foot and hand therapy ,deep tissue , aromatherapy , hollistic , swedish , ashiatsu , marternity treatment that's your whole body taken care of!"
 
 export default AboutPage
