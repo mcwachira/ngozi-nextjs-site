@@ -1,7 +1,6 @@
 import React from 'react'
 import { RiFacebookFill } from 'react-icons/ri'
-import { FiTwitter } from 'react-icons/fi'
-import { FaInstagram } from 'react-icons/fa'
+import { FaInstagram, FaTripadvisor } from 'react-icons/fa'
 import Link from 'next/link'
 import Logo from '../assets/logo/ngozi-logo.png'
 import Image  from 'next/image'
@@ -37,15 +36,16 @@ const Footer = () => {
                   <div>
 
                       <div className="flex  items-center space-x-4  mt-5  ">
-                          <a href="instagram.com" className='hover:bg-[#e95950]'>
-                              <FaInstagram style={style} size={30} /></a>
+                          <a href="instagram.com" className='hover:bg-[rgb(233,89,80)]'>
+                              <FaInstagram style={style} size={50} /></a>
 
-                          <a href="facebook.com" className='hover:bg-[#00B6F1]'>
-                              <RiFacebookFill style={style} size={30} />
+                          <a href="https://www.facebook.com/profile.php?id=100076251337953" className='hover:bg-[#00B6F1] rounded-full '>
+                              <RiFacebookFill style={style} size={50} />
                           </a>
-                          <a href="facebook.com" className='hover:bg-[#00B6F1]'>
-                              <FiTwitter style={style} size={30} />
+                          <a href="https://en.tripadvisor.com.hk/Attraction_Review-g775870-d23796735-Reviews-Ngozi_Africa-Diani_Beach_Ukunda_Coast_Province.html" className='hover:bg-[#34E0A1]  rounded-full '>
+                              <FaTripadvisor style={style} size={50} />
                           </a>
+                    
                       </div>
                   </div>
 
@@ -83,13 +83,13 @@ const Footer = () => {
                   </div>
 
                   <div className='flex flex-col gap-1'>
-                      <p>Mon:	8:30 am – 5:30 pm</p>
-                      <p>Tue:	8:30 am – 5:30 pm</p>
-                      <p>Wed:	8:30 am – 5:30 pm</p>
-                      <p>Thu:	8:30 am – 5:30 pm</p>
-                      <p>Fri:	8:30 am – 5:30 pm</p>
-                      <p>Sat:	8:30 am – 5:30 pm</p>
-                      <p>Sun:	closed </p>
+                      <p>Mon:	8:30 am – 6.00 pm</p>
+                      <p>Tue:	8:30 am – 6.00 pm</p>
+                      <p>Wed:	8:30 am – 6.00 pm</p>
+                      <p>Thu:	8:30 am – 6.00 pm</p>
+                      <p>Fri:	8:30 am – 6.00 pm</p>
+                      <p>Sat:	8:30 am – 6.00 pm</p>
+                      <p>Sun:	10:00 am– 6.00 pm</p>
 
 
                   </div>

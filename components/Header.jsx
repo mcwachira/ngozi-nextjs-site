@@ -31,7 +31,7 @@ const Header = () => {
                       </h1>
 
                       <p className='text-left my-5 text-white text-lg md:text-xl lg:text-2xl py-5'>
-                         We offer the best massage services out our various location in diani.
+                         We offer the best body therapy services out our two locations in  diani.
                       </p>
 
                       <div className='flex  justify-between items-center gap-10 '>
