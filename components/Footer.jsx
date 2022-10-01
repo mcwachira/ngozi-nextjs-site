@@ -26,11 +26,9 @@ const Footer = () => {
                       </div>
                       <div>
 
-                      <button className='bg-white text-black  px-12 py-4 font-base text-xl rounded-md' >
-                          <Link href='/appointments'>
-                              Call Now
-                          </Link>
-                      </button>
+                            <p className='text-3xl'>
+                                Social Media
+                            </p>
                   </div>
 
                   <div>
@@ -68,8 +66,8 @@ const Footer = () => {
                       </button>
                   </div>
                   <div className='mt-5'>
-                      <p className='text-xl '>
-                          MH47+6R2 Diani Beach
+                      <p className='text-xl text-center '>
+                         1st Located at Soul Breeze Beach Resort Diani Beach
                           Kenya
                       </p>
                   </div>
