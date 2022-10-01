@@ -23,14 +23,14 @@ const Header = () => {
           
 
               <div className="  flex  justify-center pt-20 md:pt-20 h-auto bg-black">
-                  <Image src={Hero} width="1400px" height="750px" className="mt-10 bg-black opacity-50" alt="hero" />
+                  <Image src={Hero} width="1400px" height="1000px" priority={true} className="mt-10 bg-black opacity-50" alt="hero" />
 
                   <div className='absolute w-full  mt-48 px-10   md:block md:mt-10  md:top-1/3 md:left-1/4 md:-translate-x-1/4 -translate-y-1/2  md:px-20 md:w-3/4'>
                       <h1 className='text-xl md:text-3xl  lg:text-4xl text-left my-5 text-white font-bold' >
                           Ngozi  Africa
                       </h1>
 
-                      <p className='text-left my-5 text-white text-lg md:text-xl lg:text-2xl py-5'>
+                      <p className=' text-left -my-1 text-white text-lg md:text-xl lg:text-2xl py-5'>
                          We offer the best body therapy services at our two locations in  diani.
                       </p>
 

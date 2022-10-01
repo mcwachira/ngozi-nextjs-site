@@ -30,7 +30,7 @@ const Navbar = () => {
 
                     <div className='w-full flex  flex-col '>
 
-                        <div className="flex   space-x-4 mx-auto ">
+                        <div className=" hidden md:flex   space-x-4 mx-auto ">
                             <a href="instagram.com" className='hover:bg-[#e95950]'><FaInstagram style={style} size={40} /></a>
 
                                 <a href="https://www.facebook.com/profile.php?id=100076251337953" className='hover:bg-[#00B6F1]  rounded-full '>
@@ -62,7 +62,7 @@ const Navbar = () => {
 
                   
                     </div>
-                    <div className='mx-auto -mt-5 '>
+                    <div className='flex mx-auto -mt-5 '>
                         <Image src={Logo} alt='logo' width='200px' height='200px' />
                     </div>
 
