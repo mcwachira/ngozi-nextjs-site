@@ -66,8 +66,12 @@ const Footer = () => {
                       </button>
                   </div>
                   <div className='mt-5'>
-                      <p className='text-xl text-center '>
+                      <p className='text-xl text-center  my-2'>
                          1st Located at Soul Breeze Beach Resort Diani Beach
+                          Kenya
+                      </p>
+                      <p className='text-xl text-center my-2'>
+                          2st Located at Mwaepe Beach close to colobus restaurant
                           Kenya
                       </p>
                   </div>
