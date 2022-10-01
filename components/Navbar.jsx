@@ -31,20 +31,20 @@ const Navbar = () => {
                     <div className='w-full flex  flex-col '>
 
                         <div className="flex   space-x-4 mx-auto ">
-                            <a href="instagram.com" className='hover:bg-[#e95950]'><FaInstagram style={style} size={50} /></a>
+                            <a href="instagram.com" className='hover:bg-[#e95950]'><FaInstagram style={style} size={40} /></a>
 
                                 <a href="https://www.facebook.com/profile.php?id=100076251337953" className='hover:bg-[#00B6F1]  rounded-full '>
-                                    <RiFacebookFill style={style} size={50} />
+                                    <RiFacebookFill style={style} size={40} />
                                 </a>
                                 <a href="https://en.tripadvisor.com.hk/Attraction_Review-g775870-d23796735-Reviews-Ngozi_Africa-Diani_Beach_Ukunda_Coast_Province.html" className='hover:bg-[#34E0A1]  rounded-full '>
-                                    <FaTripadvisor style={style} size={50} />
+                                    <FaTripadvisor style={style} size={40} />
                                 </a>
                     
                         </div>
 
                         <div className=' w-full hidden md:flex  bg-white justify-between flex-col md:flex-row '>
 
-                                <div className='mt-5 flex space-x-6 items-center justify-between text-xl text-[   #d05c14] hover:text-[#4A4A59]  mx-auto'>
+                                <div className='mt-5 flex space-x-6 items-center justify-between text-xl text-[#d05c14] hover:text-[#4A4A59]  mx-auto'>
 
                                 <Link href='/'>
                                     Home
@@ -67,16 +67,18 @@ const Navbar = () => {
                     </div>
 
 
-                        <div className='w-full flex  flex-col justify-between'>
-                    <div className="mx-auto">
-                        <div>
-                            0721 215653
+                        <div className='w-full flex  flex-col '>
+
+
+                                <div className="flex   space-x-4  space-y-4 mx-auto ">
+                                    <p className=' text-2xl'> 0721 215653</p>
+                           
                         </div>
-                            </div>
+                       
                             <div className=' w-full hidden md:flex  bg-white justify-between flex-col md:flex-row '>
 
 
-                                    <div className='my-6 hidden md:flex  space-x-6 items-center justify-between text-xl text-[   #d05c14] hover:text-[#4A4A59] mx-auto'>
+                                <div className='mt-5 flex space-x-6 items-center justify-between text-xl text-[#d05c14] hover:text-[#4A4A59]  mx-auto'>
 
                                     <Link href='/blog'>
                                         Blog
