@@ -60,7 +60,7 @@ const Header = () => {
                           <div>
                               <BsAlarm style={style} size={50} />
                           </div>
-                          <div>
+                          <div className='w-3/4'>
                               <h3>
                                   Opening Hours
                               </h3>
@@ -78,9 +78,9 @@ const Header = () => {
                           <div>
                               <GoLocation style={style} size={50} />
                           </div>
-                          <div>
-                              <h3>
-                                  MH47+6R2 Diani Beach
+                          <div className='w-3/4'>
+                              <h3 >
+                                 Located @ at Diani Beach
                               </h3>
 
                               <p>
@@ -89,11 +89,11 @@ const Header = () => {
                               </p>
                           </div>
                       </div>
-                      <div className='mt-2 md:mt-10 flex basis-full  items-center gap-10 md:gap-5 mx-auto'>
+                      <div className='mt-2 md:mt-10 flex basis-full   items-center gap-10 md:gap-5 mx-auto'>
                           <div>
                               <GiSmartphone style={style} size={50} />
                           </div>
-                          <div>
+                          <div className='w-3/4'>
                               <h3>
                                   Get in touch
                               </h3>
