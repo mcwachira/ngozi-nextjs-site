@@ -4,16 +4,17 @@ import Image from 'next/image'
 
 
 const Author = ({ author }) => {
+    // console.log(author.photo.url)
     return (
         <div className='text-center mt-20 mb-8 p-12 relative rounded-lg bg-[#d05c14] '>
             <div className="absolute left-0 right-2 -top-14">
-                {/* <Image
+                <Image
                     src={author.photo.url}
                     unoptimized
                     alt={author.name}
                     height='100px'
                     width='100px'
-                    className='items-center rounded-full' /> */}
+                    className='items-center rounded-full' />
 
             </div>
 
