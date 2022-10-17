@@ -79,6 +79,7 @@ export const getPostsDetails = async (slug) => {
     `
 
   const result = await request(graphqlApi, query, { slug })
+  console.log(result)
   return result.post
 
 }

@@ -50,6 +50,7 @@ export const getStaticProps = async () => {
 
   const posts = (await getPosts() || [])
 
+  console.log(posts)
   return {
 
     props: { posts }
