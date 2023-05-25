@@ -5,7 +5,7 @@ import { BsAlarm } from 'react-icons/bs'
 import { GoLocation } from 'react-icons/go'
 import { GiSmartphone } from 'react-icons/gi'
 import Image from 'next/image'
-import Hero from '../assets/images/hero.jpg'
+import Hero from '../assets/images/location.jpeg'
 
 
 const style = { color:'   #d05c14'}
