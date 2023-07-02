@@ -20,14 +20,7 @@ const Layout = ({children , ...customMeta}) => {
         <meta name='robots' content='follow, index' />
         <meta content={meta.description} name='description' />
 
-        {/* <meta
-          property="og:url"
-          content={`https://www.ngoziafrica.co.ke${router.asPath}`}
-        />
-        <link
-          rel="canonical"
-          href={`https://www.ngoziafrica.co.ke...${router.asPath}`}
-        /> */}
+      
      <meta
           property="og:url"
           content={`https://www.ngoziafrica.co.ke${router.asPath}`}
