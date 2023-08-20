@@ -1,9 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
 import { Header, About, Reviews, Services, Follow, Contact, Footer } from '../components'
-import { getPosts } from '../graphcsm'
+
 import styles from '../styles/Home.module.css'
 import { PostCard , PostWidget,Categories } from '../blogComponents'
+import { getPosts } from '../graphcsm'
 
 
 const Blog = ({posts}) => {

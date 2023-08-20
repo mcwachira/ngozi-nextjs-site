@@ -6,8 +6,8 @@ import { Categories } from '../components';
 const graphqlApi = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT;
 export const getPosts = async () => {
   const query = gql`
-  query MyQuery {
-  posts {
+query MyQuery {
+   posts {
     id
   }
   postsConnection {
@@ -38,9 +38,11 @@ export const getPosts = async () => {
   }
 }
 
+
     `
 
   const result = await request(graphqlApi, query)
+
   return result.postsConnection.edges
 
 }
